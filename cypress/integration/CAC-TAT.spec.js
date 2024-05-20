@@ -2,8 +2,7 @@
 
 describe('Central de Atendimento ao Cliente TAT', function() {
     this.beforeEach(function (){
-        cy.once('uncaught:exception', () => false);
-        // cy.visit('https://www.vr.com.br/')
+        // cy.once('uncaught:exception', () => false);
         cy.visit('./src/index.html')
     })
     it('verifica o título da aplicação', function() {
